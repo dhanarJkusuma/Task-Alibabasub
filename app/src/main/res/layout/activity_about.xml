@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.cerve.dhanarjkusuma.alibabasub.Activity.About">
+
+    <LinearLayout
+        android:elevation="3dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="#F4511E"
+        android:paddingTop="200dp"
+        >
+        <ImageView
+            android:src="@drawable/ic_logo"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/namaApps"
+            />
+        >
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/keterangan"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:text="keterangan"/>
+
+    </LinearLayout>
+</RelativeLayout>

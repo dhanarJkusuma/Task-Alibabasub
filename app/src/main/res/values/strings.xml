@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Alibabasub</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail_release_anime">DetailReleaseAnime</string>
+    <string name="title_activity_detail_on_going">DetailOnGoing</string>
+    <string name="title_activity_detail_anime">DetailAnime</string>
+    <string name="title_activity_detail_episode">DetailEpisode</string>
+    <string name="title_activity_download_page">DownloadPage</string>
+    <string name="title_activity_list_episode">ListEpisode</string>
+    <string name="title_activity_about">About</string>
+    <string name="action_about">About</string>
+</resources>

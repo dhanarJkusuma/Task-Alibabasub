@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#E64A19</color>
+    <color name="ColorPrimaryDark">#BF360C</color>
+    <color name="tabsScrollColor">#ffffff</color>
+    <color name="lembaran">#eeeeee</color>
+    <color name="Mainbg">#FAFAFA</color>
+    <color name="fontColor">#000</color>
+    <color name="primary">#FF9800</color>
+    <color name="primary_pressed">#E64A19</color>
+    <color name="ripple">#727272</color>
+
+</resources>

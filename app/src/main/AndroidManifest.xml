@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.cerve.dhanarjkusuma.alibabasub" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.DetailReleaseAnime"
+            android:label="@string/title_activity_detail_release_anime" >
+        </activity>
+        <activity
+            android:name=".Activity.DetailOnGoing"
+            android:label="@string/title_activity_detail_on_going" >
+        </activity>
+        <activity
+            android:name=".Activity.DetailAnime"
+            android:label="@string/title_activity_detail_anime" >
+        </activity>
+        <activity
+            android:name=".Activity.DetailEpisode"
+            android:label="@string/title_activity_detail_episode" >
+        </activity>
+        <activity
+            android:name=".Activity.DownloadPage"
+            android:label="@string/title_activity_download_page" >
+        </activity>
+        <activity
+            android:name=".Activity.ListEpisode"
+            android:label="@string/title_activity_list_episode" >
+        </activity>
+        <activity
+            android:name=".Activity.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>
